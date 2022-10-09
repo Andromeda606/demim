@@ -1,0 +1,86 @@
+body {
+    background: rgb(19 19 19 / 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition-duration: 1s;
+}
+
+body div {
+    width: 100%;
+}
+
+cross {
+    display: block;
+    background: white;
+    width: 100%;
+    height: 5px;
+}
+
+#car {
+    width: 300px;
+    transform: scaleX(-1) translate(10px, -5px);
+    filter: invert(1);
+    transition-duration: 1s;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+h3{
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.abs{
+    position: absolute;
+}
+
+.btn {
+    outline: none;
+    background: none;
+    color: white;
+    transition-duration: 0.5s;
+    padding: 15px;
+    border: 1px white solid;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.btn-abs:hover {
+    /*box-shadow: white 0 2px 2px 2px;*/
+    font-size: larger;
+    font-weight: bold;
+}
+
+.top {
+    top: 15%;
+}
+
+.right {
+    right: 5%;
+}
+
+.left {
+    left: 5%;
+}
+
+.bottom {
+    bottom: 10%;
+}
+
+img{
+    width: 250px;
+    transition-duration: 1s;
+}
+
+lnth{
+    text-decoration: line-through;
+}
