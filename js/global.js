@@ -16,8 +16,8 @@ imgSystem.hide();
 function changeTheme() {
     const body = $("body");
     body.css({
-        "background": "white",
-        "color": "black"
+        "background": "#3a66d8",
+        "color": "white"
     });
     car.css("filter", "invert(0)");
     const buttons = $(".btn");
